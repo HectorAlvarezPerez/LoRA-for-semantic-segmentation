@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LoRA-for-semantic-segmentation
 Implementation of semantic segmentation using a SegFormer model, trained on the GTA5 dataset and fine-tuned for Cityscapes. Includes experimentation with LoRA and other training techniques to improve performance.
 =======
@@ -27,9 +26,3 @@ This project uses the following datasets:
 *   **GTA5:** A synthetic dataset of urban scenes rendered from Grand Theft Auto V, used for pre-training. The `gta_segformer_trainer.py` script utilizes the `guimCC/gta5-cityscapes-labeling` dataset from the Hugging Face Hub.  The `gta_segformer_trainer_png.py` script expects image paths in  `./all_gta_images.txt` and `masks` in `./all_gta_masks.txt`.
 
 *   **Cityscapes:** A real-world dataset of urban scenes, used for fine-tuning. The scripts expect a local copy of the Cityscapes dataset located at `"../cityscapes_train_1000_dataset_v3"`.
-
-## Dependencies
-
-Install the following Python packages:
-
->>>>>>> master
